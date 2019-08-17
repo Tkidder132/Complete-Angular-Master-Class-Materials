@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  isChecked = true;
   title = 'material-demo';
+
+  onChange($event) {
+    console.log($event);
+  }
 }

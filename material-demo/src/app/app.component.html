@@ -25,6 +25,10 @@
     <button mat-fab>
       <mat-icon>check circle</mat-icon>
     </button>
-    <mat-checkbox>Check me baby</mat-checkbox>
   </span>
+</div>
+
+<div class="container">
+  <mat-checkbox #showDetails [value]="" [checked]="isChecked" (change)="onChange($event)">Show details</mat-checkbox>
+  <div *ngIf="showDetails.checked">Some details....</div>
 </div>
