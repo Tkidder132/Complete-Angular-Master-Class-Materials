@@ -5,9 +5,10 @@ import {
   MatCheckboxModule,
   MatMenuModule,
   MatRadioModule,
+  MatSelectModule,
   MatToolbarModule,
   MatIconModule,
-  MatCardModule
+  MatCardModule,
 } from '@angular/material';
 
 @NgModule({
@@ -16,6 +17,7 @@ import {
     MatCheckboxModule,
     MatMenuModule,
     MatRadioModule,
+    MatSelectModule,
     MatToolbarModule,
     MatIconModule,
     MatCardModule
@@ -25,6 +27,7 @@ import {
     MatCheckboxModule,
     MatMenuModule,
     MatRadioModule,
+    MatSelectModule,
     MatToolbarModule,
     MatIconModule,
     MatCardModule

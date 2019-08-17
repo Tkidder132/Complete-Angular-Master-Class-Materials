@@ -28,10 +28,14 @@
   </span>
 </div>
 
+<hr>
+
 <div class="container">
   <mat-checkbox #showDetails [value]="" [checked]="isChecked" (change)="onChange($event)">Show details</mat-checkbox>
   <div *ngIf="showDetails.checked">Some details....</div>
 </div>
+
+<hr>
 
 <div class="container">
   <mat-radio-group (change)="onRadioChanged($event)">
@@ -40,3 +44,9 @@
     <mat-radio-button value="Other">Other</mat-radio-button>
   </mat-radio-group>
 </div>
+
+<hr>
+
+<mat-select>
+  <mat-option *ngFor="let color of colors" [value]='color.id'>{{ color.name }}</mat-option>
+</mat-select>

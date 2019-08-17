@@ -9,6 +9,12 @@ export class AppComponent {
   isChecked = true;
   title = 'material-demo';
 
+  colors = [
+    { id: 1, name: 'Red' },
+    { id: 2, name: 'Green' },
+    { id: 3, name: 'Blue' }
+  ];
+
   onChange($event) {
     console.log($event);
   }
