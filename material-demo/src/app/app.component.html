@@ -53,6 +53,10 @@
 
 <hr>
 
-<mat-form-field class="example-full-width">
-  <input matInput placeholder="Favorite food" value="Sushi">
+<mat-form-field class="example-full-width" required>
+  <input matInput type="text" placeholder="Username">
+  <mat-hint>Type a unique Username</mat-hint>
+  <span matSuffix>@domain.com</span>
+  <span matPrefix>admin.</span>
+  <mat-error>This field is required</mat-error>
 </mat-form-field>
