@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import {
   MatButtonModule,
   MatCheckboxModule,
+  MatDatepickerModule,
+  MatNativeDateModule,
   MatInputModule,
   MatMenuModule,
   MatRadioModule,
@@ -16,6 +18,8 @@ import {
   imports: [
     MatButtonModule,
     MatCheckboxModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
     MatInputModule,
     MatMenuModule,
     MatRadioModule,
@@ -27,6 +31,8 @@ import {
   exports: [
     MatButtonModule,
     MatCheckboxModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
     MatInputModule,
     MatMenuModule,
     MatRadioModule,
