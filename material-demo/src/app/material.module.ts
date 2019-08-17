@@ -4,6 +4,7 @@ import {
   MatButtonModule,
   MatCheckboxModule,
   MatMenuModule,
+  MatRadioModule,
   MatToolbarModule,
   MatIconModule,
   MatCardModule
@@ -14,6 +15,7 @@ import {
     MatButtonModule,
     MatCheckboxModule,
     MatMenuModule,
+    MatRadioModule,
     MatToolbarModule,
     MatIconModule,
     MatCardModule
@@ -22,6 +24,7 @@ import {
     MatButtonModule,
     MatCheckboxModule,
     MatMenuModule,
+    MatRadioModule,
     MatToolbarModule,
     MatIconModule,
     MatCardModule

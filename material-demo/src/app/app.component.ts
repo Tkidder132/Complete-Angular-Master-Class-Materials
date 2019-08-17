@@ -12,4 +12,8 @@ export class AppComponent {
   onChange($event) {
     console.log($event);
   }
+
+  onRadioChanged($event) {
+    console.log('You are a' + ($event.value === 'Other' ? 'n ' : ' ') + $event.value);
+  }
 }
